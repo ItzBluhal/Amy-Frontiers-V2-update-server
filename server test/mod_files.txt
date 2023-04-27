@@ -1,2 +1,0 @@
-delete raw/sound
-add mod.ini
