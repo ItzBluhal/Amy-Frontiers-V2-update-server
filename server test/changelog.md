@@ -1,3 +1,6 @@
+## Amy-Frontiers-V2-update-server Test V1.4
+- removed sound folder
+
 ## Amy-Frontiers-V2-update-server Test V1.3
 - fixed not workin
 
