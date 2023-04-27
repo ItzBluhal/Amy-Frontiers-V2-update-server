@@ -1,3 +1,2 @@
-delete raw/sound/redme.txt
-delete raw/sound/voice_rangers_sonic_en.acb
+delete raw/sound
 add mod.ini
