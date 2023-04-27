@@ -1,3 +1,3 @@
-add raw/sound/redme.txt
-add raw/sound/voice_rangers_sonic_en.acb
+remove raw/sound/redme.txt
+remove raw/sound/voice_rangers_sonic_en.acb
 add mod.ini
