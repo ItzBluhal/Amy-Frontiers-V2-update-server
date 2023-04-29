@@ -1,0 +1,179 @@
+{
+	"Groups": [
+	   {
+		  "Name": "main",
+		  "DisplayName": "Options",
+		  "Elements": [
+  
+			 {
+				"Name": "IncludeDir1",
+				"DisplayName": "Amy's Textures",
+				"Description": [
+				   "Change Amy's textures to your liking."
+				],
+				"Type": "TexturesEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "Spoonscribble's HD Amy"
+			 },
+			 {
+				"Name": "IncludeDir2",
+				"DisplayName": "Physics",
+				"Description": [
+				   "Change The Physics to your liking."
+				],
+				"Type": "PhysicsEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "Standard (Default)"
+			 },
+			 {
+				"Name": "IncludeDir3",
+				"DisplayName": "Amy's Jumpball",
+				"Description": [
+				   "Change Amy's jumpball to your liking."
+				],
+				"Type": "JumpballEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "V2"
+			 },
+			 {
+				"Name": "IncludeDir4",
+				"DisplayName": "Custom Music/SFX",
+				"Description": [
+				   "Toggle whether you want to hear Custom Music/SFX or not."
+				],
+				"Type": "MusicSFXEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "On"
+			 },
+		  ]
+	   }
+	],
+	
+	"Enums": {
+ 
+	   "TexturesEnum": 
+	   [
+ 
+		  {
+			 "DisplayName": "Normal Textures (Default)",
+			 "Value": "tex_normal",
+			 "Description": [
+				"Frontier's Normal Textures for Amy."
+			 ]
+		  },
+ 
+		  {
+			"DisplayName": "Spoonscribble's HD Amy",
+			"Value": "tex_SpoonScribbleHD",
+			"Description": [
+			   "Custom Made HD Textures for amy, Made by Spoon Scribble."
+			]
+		 }
+	   ],
+	   "PhysicsEnum":
+	   [
+ 
+		{
+		   "DisplayName": "Amy Frontiers Physics (Default)",
+		   "Value": "Phys_Amy",
+		   "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "Vanilla Sonic Physics",
+		  "Value": "Phys_SonicFR",
+		  "Description": [
+			 ""
+		  ]
+		 }
+	   ],
+	   "JumpballEnum":
+	   [
+ 
+		{
+		   "DisplayName": "V2 (Default)",
+		   "Value": "Jumpball_V2",
+		   "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		   "DisplayName": "V2 Hammer Spin Jump",
+		   "Value": "Jumpball_V2_Hammer",
+		   "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "V1",
+		  "Value": "Jumpball_V1",
+		   "Description": [
+			 ""
+		  ]
+		 }
+	   ],
+	   "MusicSFXEnum":
+	   [
+ 
+		{
+		  "DisplayName": "On",
+		  "Value": "Music_SFX",
+		  "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "Off",
+		  "Value": "main",
+		  "Description": [
+			  ""
+		  ]
+		 }
+	   ],
+	   "SuperEnum":
+	   [
+ 
+		{
+		  "DisplayName": "Light Pink (Default)",
+		  "Value": "super_light_pink",
+		  "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "Rose-Gold",
+		  "Value": "super_rose_gold",
+		  "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "Yellow Gold",
+		  "Value": "super_yelw_gold",
+		  "Description": [
+			  ""
+		   ]
+		},
+
+		{
+		  "DisplayName": "Hyper",
+		  "Value": "super_hyper",
+		  "Description": [
+			  ""
+		  ]
+	   }
+	 ]
+	},
+	"IniFile": "mod.ini"
+ }
