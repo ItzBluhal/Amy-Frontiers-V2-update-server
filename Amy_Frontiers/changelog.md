@@ -1,3 +1,6 @@
+## Amy Frontiers V2.01
+- added update server
+
 ## Amy Frontiers V2.0
 - Sonic the Hedgehog over NPC Amy Rose 
 - including MANY AI voice and UI changes
